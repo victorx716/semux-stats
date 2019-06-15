@@ -1,0 +1,39 @@
+{
+  "name": "semux-stats",
+  "version": "1.0.0",
+  "description": "Explore the semux blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorx716/semux-stats.git"
+  },
+  "keywords": [
+    "semux",
+    "sem"
+  ],
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victorx716/semux-stats/issues"
+  },
+  "homepage": "https://github.com/victorx716/semux-stats#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
